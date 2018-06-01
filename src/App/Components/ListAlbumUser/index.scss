@@ -1,0 +1,12 @@
+@import '../../style/colors';
+
+.list-post-user-container{
+    .ant-collapse-item{
+        color: #ffffff;
+        background: $darkGreen;
+        .ant-collapse-header{
+            background: $darkGreen;
+            color: $whiteColor !important;
+        }
+    }
+}

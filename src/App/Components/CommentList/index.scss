@@ -1,0 +1,33 @@
+@import '../../style/colors';
+
+.comment-list-container{
+    margin: 20px 0px;
+
+    .comment__list{
+        margin: 10px 0px;
+        padding: 5px 10px;
+        border-radius: 4px;
+        border: 1px solid $lightGrey;
+
+        .title__container{
+            h3{
+                color: $mainColor;
+                font-weight: 400;
+            }
+        }
+
+        .body__container{
+            p{
+                color: $darkGrey;
+                font-weight: 200;
+            }
+        }        
+        
+        .created__by {
+            span{
+                font-weight: 600;
+                color: $redColor;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../style/colors';
+@import '../../style/variables';
+
+.header-title-container{
+    margin: 10px 0px 20px 0px;
+    h2{
+        color: $headerFont;
+        font-size: 20pt;
+        font-family: $headerFont;
+    }
+
+    h6{
+        font-size: 12pt;
+        color: $subtitleColor;
+
+    }
+}

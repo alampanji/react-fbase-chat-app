@@ -1,0 +1,22 @@
+@import '../../style/colors';
+
+.info-card-container{
+    .list{
+        border: 1px solid $lightGrey;
+        height: 150px;
+        border-radius: 4px;
+        background: $lightGrey;
+
+        .content__card{
+            padding: 50px;
+
+            h1{
+                color: $mainColor;
+            }
+
+            h2{
+                color: $redColor;
+            }
+        }
+    }
+}

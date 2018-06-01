@@ -1,0 +1,34 @@
+@import '../../style/colors';
+
+.detail-user-container{
+    .top__section{
+        padding-bottom: 20px;
+        border-bottom: 1px solid $lightGrey;
+    }
+
+    .image__section{
+        img{
+            width: 100%;
+            height: 270px;
+        }
+    }
+    .profile__section{
+        .ant-row{
+            margin: 10px 0px;
+        }
+        h3.description{
+            color: $darkGrey;
+            font-weight: 300;
+        }
+        h3.content{
+            color: $redColor;
+        }
+    }
+    .list__post__of__user{
+        h2{
+            color: $redColor;
+            font-weight: 300;
+            margin: 20px 0px;
+        }
+    }
+}
